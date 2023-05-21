@@ -1,0 +1,54 @@
+﻿@model Sway.Models.Assessment
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Assessment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="aName" class="control-label"></label>
+                <input asp-for="aName" class="form-control" />
+                <span asp-validation-for="aName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="aSentiment" class="control-label"></label>
+                <input asp-for="aSentiment" class="form-control" />
+                <span asp-validation-for="aSentiment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="aPosSentiment" class="control-label"></label>
+                <input asp-for="aPosSentiment" class="form-control" />
+                <span asp-validation-for="aPosSentiment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="aNegSentiment" class="control-label"></label>
+                <input asp-for="aNegSentiment" class="form-control" />
+                <span asp-validation-for="aNegSentiment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OpinionID" class="control-label"></label>
+                <select asp-for="OpinionID" class="form-control" asp-items="ViewBag.OpinionID"></select>
+                <span asp-validation-for="OpinionID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

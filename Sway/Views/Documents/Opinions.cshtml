@@ -1,0 +1,61 @@
+﻿@model Sway.Models.Document
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Document</h4>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.Display("Opinion")
+            </th>
+            <th>
+                @Html.Display("Neutral Percent")
+            </th>
+            <th>
+                @Html.Display("Positive Percent")
+            </th>
+            <th>
+                @Html.Display("Negative Percent")
+            </th>
+            <th>
+                @Html.Display("Phrase")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach(var op in ViewBag.docOpList){
+         <tr>
+            <td>
+               @op.oName
+            </td>
+            <td>
+                @op.oSentiment
+            </td>
+            <td>
+                @op.oPosSentiment
+            </td>
+            <td>
+                @op.oNegSentiment
+            </td>
+            <td>
+                 
+            </td>
+            
+        </tr>
+}
+@foreach(var op in ViewBag.docOpPhraseList){
+                        <div><td>@op</td></div>
+
+        }
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

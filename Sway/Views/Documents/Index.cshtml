@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Sway.Models.Document>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<form method="post" asp-action="Scrape" asp-controller="Documents">
+		<div class="form-group col-md-9">
+			<h5 class="display-6 fs-6 pt-2 text-white">Search</h5>
+             <input type="text" id="givenName" name="givenName" style="width: 150px" placeholder="Name your result" />
+             
+             <input type="text" id="givenText" name="givenText" style="width: 325px" placeholder="Add your text here"/>
+
+             <input type="submit" id="Search" value="Search" />
+		</div>
+	</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.dName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.docSentiment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.docPosSentiment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.docNegSentiment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.docNeutralSentiment)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.dName)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.docSentiment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.docPosSentiment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.docNegSentiment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.docNeutralSentiment)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+                <a asp-action="Opinions" asp-route-id="@item.ID">Opinions</a>
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+
+
+
+
+<!-- <table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.Display("Key Phrases")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewBag.KeyPhrase) {
+        <tr>
+            <td>
+                @item
+            </td>
+        </tr>-->
+}
+
+    
+    </tbody>
+</table>

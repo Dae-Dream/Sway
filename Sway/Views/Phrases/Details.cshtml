@@ -1,0 +1,54 @@
+﻿@model Sway.Models.Phrase
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Phrase</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.sentiment)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.sentiment)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.posSentiment)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.posSentiment)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.negSentiment)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.negSentiment)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.neutralSentiment)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.neutralSentiment)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Document)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Document.dName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

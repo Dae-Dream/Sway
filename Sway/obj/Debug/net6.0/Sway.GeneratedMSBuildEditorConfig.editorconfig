@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sway
+build_property.RootNamespace = Sway
+build_property.ProjectDir = C:\Users\samw\OneDrive\Documents\sway2\Sway\Sway\Sway\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\samw\OneDrive\Documents\sway2\Sway\Sway\Sway
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Assessments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Assessments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Assessments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Assessments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Assessments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Documents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Documents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Documents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Documents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Documents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Documents/Opinions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXE9waW5pb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Opinions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Opinions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Opinions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Opinions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Opinions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Phrases/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhyYXNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Phrases/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhyYXNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Phrases/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhyYXNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Phrases/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhyYXNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Phrases/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhyYXNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samw/OneDrive/Documents/sway2/Sway/Sway/Sway/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ejgxt6rwzl

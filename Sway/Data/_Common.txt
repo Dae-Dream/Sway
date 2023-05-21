@@ -1,0 +1,5 @@
+﻿Add-Migration -Context SwayContext -o Data\SwayMigrations Initial
+Update-Database -Context SwayContext
+---------------------------------------------------------------------------------
+Add-Migration -Context ApplicationDbContext -OutputDir Data\Migrations Initial
+Update-Database -Context ApplicationDbContext
